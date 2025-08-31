@@ -6,6 +6,6 @@ import type {FC, PropsWithChildren} from 'react'
 
 import { client } from '@/libs/apollo-client'
 
-export const ApolloClientProvider:FC =({ children }: PropsWithChildren)=> {
+export const ApolloClientProvider:FC<PropsWithChildren> =({ children })=> {
     return <ApolloProvider client={client}>{children}</ApolloProvider>
 }

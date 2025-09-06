@@ -6,7 +6,8 @@
     "dev": "graphql-codegen --config graphql.config.ts && next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "codegen": "graphql-codegen --config graphql.config.ts"
   },
   "dependencies": {
     "@apollo/client": "^3.11.10",

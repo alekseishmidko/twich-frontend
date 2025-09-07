@@ -26,7 +26,7 @@ import {
 
 import { useLoginUserMutation } from '@/graphql/generated/output'
 
-import { useAuth } from '@/hooks/useAuth'
+import { useAuth } from '@/hooks/use-auth'
 
 import { type TypeLoginSchema, loginSchema } from '@/schemas/auth/login.schema'
 

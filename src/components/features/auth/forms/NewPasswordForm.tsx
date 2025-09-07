@@ -22,7 +22,7 @@ import { useNewPasswordMutation } from '@/graphql/generated/output'
 import {
 	type TypeNewPasswordSchema,
 	newPasswordSchema
-} from '@/schemas/auth/new-passsword.schema'
+} from '@/schemas/auth/new-password.schema'
 
 import { AuthWrapper } from '../AuthWrapper'
 

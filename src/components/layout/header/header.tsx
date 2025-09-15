@@ -1,6 +1,6 @@
-import { HeaderMenu } from './HeaderMenu'
-import { Logo } from './Logo'
-import { Search } from './Search'
+import { HeaderMenu } from './header-menu'
+import { Logo } from './logo'
+import { Search } from './search'
 
 export function Header() {
 	return (

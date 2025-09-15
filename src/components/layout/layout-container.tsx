@@ -2,8 +2,8 @@
 
 import { type PropsWithChildren, useEffect } from 'react'
 
-import { useMediaQuery } from '@/hooks/useMediaQuery'
-import { useSidebar } from '@/hooks/useSidebar'
+import { useMediaQuery } from '@/hooks/use-media-query'
+import { useSidebar } from '@/hooks/use-sidebar'
 
 import { cn } from '@/utils/tw-merge'
 

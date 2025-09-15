@@ -3,11 +3,10 @@
 import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 
+import { ProfileMenu } from '@/components/layout/header/profile-menu'
 import { Button } from '@/components/ui/common/button'
 
 import { useAuth } from '@/hooks/use-auth'
-
-import { ProfileMenu } from './ProfileMenu'
 
 export function HeaderMenu() {
 	const t = useTranslations('layout.header.headerMenu')

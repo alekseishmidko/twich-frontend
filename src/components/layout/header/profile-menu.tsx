@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { toast } from 'sonner'
 
-import { Notifications } from '@/components/layout/notifications/notifications'
+import { Notifications } from '@/components/layout/header/notifications/notifications'
 import {
 	DropdownMenu,
 	DropdownMenuContent,
@@ -19,7 +19,7 @@ import { ChannelAvatar } from '@/components/ui/elements/channel-avatar'
 import { useLogoutUserMutation } from '@/graphql/generated/output'
 
 import { useAuth } from '@/hooks/use-auth'
-import { useCurrent } from '@/hooks/useCurrent'
+import { useCurrent } from '@/hooks/use-current'
 
 export function ProfileMenu() {
 	const t = useTranslations('layout.header.headerMenu.profileMenu')

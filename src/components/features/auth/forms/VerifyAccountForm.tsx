@@ -39,7 +39,7 @@ export function VerifyAccountForm() {
 				data: { token }
 			}
 		})
-	}, [token])
+	}, [token, verify])
 
 	return (
 		<AuthWrapper heading={t('heading')}>

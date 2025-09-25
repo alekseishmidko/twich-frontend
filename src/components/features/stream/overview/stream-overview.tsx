@@ -6,12 +6,12 @@ import type { FindChannelByUsernameQuery } from '@/graphql/generated/output'
 
 import { useStreamToken } from '@/hooks/use-stream-token'
 
-import { LiveChat, LiveChatSkeleton } from '../../chat/live/LiveChat'
+import { LiveChat, LiveChatSkeleton } from '../../chat/live/live-chat'
 
 import { AboutChannel, AboutChannelSkeleton } from './info/about-channel'
 import { ChannelSponsors } from './info/channel-sponsors'
 import { StreamInfo, StreamInfoSkeleton } from './info/stream-info'
-import { StreamVideo, StreamVideoSkeleton } from './player/StreamVideo'
+import { StreamVideo, StreamVideoSkeleton } from './player/stream-video'
 
 interface StreamOverviewProps {
 	channel: FindChannelByUsernameQuery['findChannelByUsername']

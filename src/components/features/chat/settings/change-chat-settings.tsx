@@ -37,7 +37,7 @@ export function ChangeChatSettings() {
 	})
 
 	const [update, { loading: isLoadingUpdate }] = useChangeChatSettingsMutation({
-		onCompleted(data) {
+		onCompleted() {
 			toast.success(t('successMessage'))
 		},
 		onError() {

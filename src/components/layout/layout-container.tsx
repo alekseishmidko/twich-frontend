@@ -18,7 +18,7 @@ export function LayoutContainer({ children }: PropsWithChildren<unknown>) {
 		} else {
 			if (isCollapsed) open()
 		}
-	}, [isMobile])
+	}, [isMobile, close, open, isCollapsed])
 
 	return (
 		<main

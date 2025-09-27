@@ -34,6 +34,7 @@ async function findChannelByUsername(params: { username: string }) {
 			channel: data.data
 				.findChannelByUsername as FindChannelByUsernameQuery['findChannelByUsername']
 		}
+		// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	} catch (error) {
 		return notFound()
 	}

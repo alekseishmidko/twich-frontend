@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
 
-import { UserSettings } from '@/components/features/user/UserSettings'
+import { UserSettings } from '@/components/features/user/user-settings'
 
 import { NO_INDEX_PAGE } from '@/libs/constants/seo.constants'
 
